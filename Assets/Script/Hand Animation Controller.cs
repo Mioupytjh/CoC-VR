@@ -23,6 +23,6 @@ public class HandAnimationController : MonoBehaviour
         handAnimation.SetFloat("Pinch", pinchValue);
 
         float grabValue = grabAnimation.action.ReadValue<float>();
-        handAnimation.SetFloat("Value", grabValue);
+        handAnimation.SetFloat("Grab", grabValue);
     }
 }
